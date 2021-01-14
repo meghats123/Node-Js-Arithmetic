@@ -1,0 +1,11 @@
+const calculator = require("./arithmetic");
+var x=20;
+var y=10;
+var z=calculator.addNum(x,y);
+console.log(z);
+var z=calculator.subNum(x,y);
+console.log(z);
+var z=calculator.mulNum(x,y);
+console.log(z);
+var z=calculator.divNum(x,y);
+console.log(z);
